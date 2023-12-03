@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Based Flix">
+    <title>Based Flix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/5/5d/Hells_Angels_logo.jpg">
+</head>
+<body>
+
+    <header>
+         <div id="iconcontainer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Harley-Davidson_logo.svg"  alt="" id="icon">
+            <h3>Based Flix</h3>
+        </div>
+        <form action="" id="searchform">
+            <input type="text" class="searchinp" id="search" placeholder="Search Movie">
+        </form>
+    </header>
+
+   <div id="selection"> <div id="tagscontainer"></div>
+<div id="btnscontainer"><button id="clearselection" onclick=clearselection() class="tag clear" >Clear</button>
+    <button id="searchselection"  class="tag search" >Search</button></div></div></div>
+
+    <main>     
+    </main>
+
+  <footer>  
+    <div class="pagenation">
+    <button class="pge" id="prev">Previous</button>
+    <div id="cur" class="cur">1</div>
+    <button id="next" class="pge">Next</button>
+</div>
+
+<div class="btmpgecontrols">
+<div id="ttlpages">Total Pages : xxxx</div>
+<input type="number" id="goto" class="searchinp">
+<button class="tag goto" id="go">Go to page</button>
+</div>
+</footer>
+
+<div id="navsel">
+    <div class="pagenation">
+        <button class="pge genre" id="genreprev">Previous</button>
+        <div id="genrecur" class="cur genre">1</div>
+        <button id="genrenext" class="pge genre">Next</button>
+    </div>
+    
+    <div class="btmpgecontrols">
+    <div id="genrettlpages">Total Pages : xxxx</div>
+    <input type="number" id="genregoto" class="searchinp genre">
+    <button class="tag goto genre" id="genrego">Go to page</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

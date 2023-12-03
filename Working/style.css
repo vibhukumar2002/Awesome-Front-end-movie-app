@@ -1,0 +1,178 @@
+:root{
+    --primary-color: #22254b;
+    --secondary-color:#373b69;
+}
+body{
+    background-color: var(--primary-color);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+}
+.searchinp
+{   padding: 3px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin-right: 4px;
+    color: antiquewhite;
+}
+.searchinp:focus
+{
+    outline: 0;
+    background-color: var(--primary-color);
+}
+#searchinp:hover
+{
+    transform: scale(1.2);
+    transition: 1000ms ease-in;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movie
+{
+    width: 300px;
+    margin: 5px;
+    background-color: var(--secondary-color);
+    position: relative;
+    overflow-y: hidden;
+}
+.movieimg
+{
+    width: 100%;
+}
+.movieinfo
+{
+    display: flex;
+    justify-content: space-between;
+    color: antiquewhite;
+    margin-top: 0px;
+    padding: 3px;
+}
+.rating
+{
+    background-color: #22254b;
+    padding: 3px;
+    border-radius: 15%;
+}
+.red 
+{
+background-color: red;
+}
+.green
+{
+    background-color: green;
+}
+.orange
+{
+    background-color: orange;
+}
+.overview
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: antiquewhite;
+    padding: 5px;
+    max-height: 100%;
+    transform: translateY(101%);
+}
+.movie:hover .overview
+{
+  transform: translateY(0);
+  transition: 1330ms ease-in;
+}
+#tagscontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.tag{
+    min-height: 30px;
+    min-width: 60px;
+    border-radius: 15%;
+    background-color: orange;
+}
+.clear
+{
+    background-color: blue;
+}
+.search
+{
+    background-color: green;
+}
+#selection
+{
+    display: grid;
+    place-items: center;
+}
+.sorry
+{
+    display: grid;
+    place-items: center;
+}
+#icon
+{
+    height: 35px;
+    width: 35px;
+}
+#iconcontainer
+{
+    display: flex;
+    align-items: center;
+}
+.pagenation
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pge
+{
+    height: 25px;
+    min-width: 60px;
+    border-radius: 15%;
+    background-color: lightgreen;
+    margin: 5px;
+}
+.cur
+{
+    color: antiquewhite;
+    font-weight: bolder;
+}
+#ttlpages
+{
+ 
+ color: antiquewhite;
+}
+.btmpgecontrols
+{
+    display: grid;
+    place-items: center;
+}
+.goto
+{
+    background-color: aqua;
+}
+footer
+{
+    display: grid;
+    place-items: center;
+}
+.genre
+{
+    background-color: blue;
+    margin: 5px;
+}
+#navsel
+{
+    color: antiquewhite;
+    font-weight: bolder;
+}
